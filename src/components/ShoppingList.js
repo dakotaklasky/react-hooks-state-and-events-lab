@@ -14,7 +14,7 @@ function ShoppingList({ items }) {
       return true;
     }
     else{
-      return item.category === selectedCategory;
+      return item.category === selectedCategory
     }
   })
 
